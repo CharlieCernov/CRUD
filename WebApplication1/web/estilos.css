@@ -1,0 +1,32 @@
+header {
+    background-color: orange;
+}
+nav{
+    background-color: gray;
+    border: solid red 1px;
+    display: flex;
+    align-items: center;
+}
+main{
+    height: 500px;
+    background-color: black;
+}
+footer{
+    background-color: pink;
+}
+*{
+    margin: 0 auto;
+}
+header, nav, main, footer{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 90%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+}
+nav a:hover{
+    background-color: red;
+}
